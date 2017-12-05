@@ -16,12 +16,58 @@
 	var d = 5.5;
 	var sum = d + a;
 
-// data output
+	// data output
 	console.log(sum);
 	console.log(a);
 	document.write(sum);
+
+	//concatination
+	document.write("<br>Variable a has a value " + a + ". <br> Variable b has a value " + b)
 </script>
+<hr>
+<script>
+	var a = 6;
+	var b = 8;
+	var c = 9.5; 
+	var sum = a + b + c;
 
+	document.write("my variable a has the value " + a + "," + " my variale b has the value " + b + "," + " my variable c has the value " + c + "<br>and their sum is <b> " + sum + ".</b>");
+</script>
+<script>
+document.write("<hr>");
+	
+	//arrays
+	var students = ["Lydie","Dragana","Otaru","Manuela","Simona"];
 
+	document.write(students + "<br>");
+	
+	document.write(students[2]);
+
+document.write("<hr>");
+	//arrays - multi-dimensional
+
+	tic_tac_toe = [
+	['1', '2', '3'],
+	['4', '5', '6'],
+	['7', '8', '9']
+	];
+
+	document.write(tic_tac_toe[1][1]);
+	document.write("<br>");
+	document.write(tic_tac_toe[0][2]);
+	document.write("<br>");
+	document.write(tic_tac_toe[2][1]);
+	document.write("<hr>");
+
+	 ourStudents = [
+["Lydie","Dragana","Otaru","Manuela","Simona"],
+["Nicole","Ena","Dragan","Tanja","Stefan"]
+];
+
+	
+	document.write(ourStudents[0][1] + "<br>");
+	document.write(ourStudents[1][1] + "<br>");
+	document.write(ourStudents[1][4]);
+</script>
 </body>
 </html>
